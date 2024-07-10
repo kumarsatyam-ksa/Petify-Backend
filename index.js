@@ -5,8 +5,8 @@ const cors = require("cors");
 const connection = require("./db");
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
-const petsRouter = require("routes/pets.js");
-const careProductsRouter = require("routes/careProducts.js");
+const petsRouter = require("./routes/pets");
+const careProductsRouter = require("./routes/careProducts");
 
 // database connection
 connection();
